@@ -92,6 +92,7 @@ These local repos are not fully represented on GitHub yet, so the hub cannot
 deploy them until the first push happens:
 
 - `qFioofa-StarShip`: `scripts/` and `starship.toml` are still untracked
-  locally, so the remote has no deploy script. Commit and push in `~/qf/starship`.
+  locally, so the remote has no deploy script. Commit and push in `~/qf/starship`;
+  its manifest row in `config/repos.tsv` is commented out until then.
 - `qFioofa-Tele`: the remote repository is empty. Its manifest row in
   `config/repos.tsv` is commented out until the first push.

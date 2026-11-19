@@ -1,7 +1,8 @@
 # order	name	path	branch	deploy	os	args
 # os: comma list of linux, darwin, win ("linux" also matches WSL)
 # args: extra flags for the repo's deploy script ("-" = none)
-10	starship	repos/starship	main	scripts/deploy.sh	linux,win	-
+# 10	starship	repos/starship	main	scripts/deploy.sh	linux,win	-
+#     ^ enable after the upstream push: the remote has no deploy script yet
 20	ghossty	repos/ghossty	main	scripts/deploy.sh	linux	-b
 30	wezterm	repos/wezterm	main	scripts/deploy.sh	linux,win	-
 40	tmux	repos/tmux	main	scripts/deploy.sh	linux	-
