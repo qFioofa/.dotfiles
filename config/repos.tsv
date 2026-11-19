@@ -1,0 +1,23 @@
+# order	name	path	branch	deploy	os	args
+# os: comma list of linux, darwin, win ("linux" also matches WSL)
+# args: extra flags for the repo's deploy script ("-" = none)
+10	starship	repos/starship	main	scripts/deploy.sh	linux,win	-
+20	ghossty	repos/ghossty	main	scripts/deploy.sh	linux	-b
+30	wezterm	repos/wezterm	main	scripts/deploy.sh	linux,win	-
+40	tmux	repos/tmux	main	scripts/deploy.sh	linux	-
+50	zsh	repos/zsh	main	scripts/deploy.sh	linux	-b
+60	nvim	repos/nvim	main	scripts/deploy.sh	linux,win	-b
+70	lazygit	repos/lazygit	main	scripts/deploy.sh	linux	-
+80	lazydocker	repos/lazydocker	main	scripts/deploy.sh	linux	-
+90	herdr	repos/herdr	main	scripts/deploy.sh	linux	-
+# 100	qFioofa-Tele	repos/qFioofa-Tele	main	scripts/deploy.sh	linux	-
+#     ^ enable after the first push: the remote repo is still empty
+
+110	opencode	repos/opencode	main	scripts/deploy.sh	linux,win	-b
+120	firefox	repos/firefox	main	scripts/deploy.sh	linux,win	-
+130	.vimrc	repos/.vimrc	main	scripts/deploy.sh	linux	-b
+140	yugen-ash.nvim	repos/yugen-ash.nvim	main	scripts/deploy.sh	linux,win	-
+150	physical-keyboard.nvim	repos/physical-keyboard.nvim	develop	scripts/deploy.sh	linux	-
+160	yugen-ash.idea	repos/yugen-ash.idea	main	scripts/deploy.sh	linux,win	-
+170	PowerShell	repos/PowerShell	main	scripts/deploy.ps1	win	-
+# excluded: qFioofa (GitHub profile README, not a config)

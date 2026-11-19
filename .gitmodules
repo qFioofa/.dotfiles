@@ -1,0 +1,64 @@
+[submodule "repos/starship"]
+	path = repos/starship
+	url = https://github.com/qFioofa/qFioofa-StarShip.git
+	branch = main
+[submodule "repos/ghossty"]
+	path = repos/ghossty
+	url = https://github.com/qFioofa/qFioofa-Ghostty.git
+	branch = main
+[submodule "repos/wezterm"]
+	path = repos/wezterm
+	url = https://github.com/qFioofa/qFioofa-wezterm.git
+	branch = main
+[submodule "repos/tmux"]
+	path = repos/tmux
+	url = https://github.com/qFioofa/qFioofa-tmux.git
+	branch = main
+[submodule "repos/zsh"]
+	path = repos/zsh
+	url = https://github.com/qFioofa/qFioofa-zsh.git
+	branch = main
+[submodule "repos/nvim"]
+	path = repos/nvim
+	url = https://github.com/qFioofa/qFioofa-Nvim.git
+	branch = main
+[submodule "repos/lazygit"]
+	path = repos/lazygit
+	url = https://github.com/qFioofa/qFioofa-LazyGit.git
+	branch = main
+[submodule "repos/lazydocker"]
+	path = repos/lazydocker
+	url = https://github.com/qFioofa/qFioofa-LazyDocker.git
+	branch = main
+[submodule "repos/herdr"]
+	path = repos/herdr
+	url = https://github.com/qFioofa/qFioofa-Herdr.git
+	branch = main
+[submodule "repos/opencode"]
+	path = repos/opencode
+	url = https://github.com/qFioofa/qFioofa-Opencode.git
+	branch = main
+[submodule "repos/firefox"]
+	path = repos/firefox
+	url = https://github.com/qFioofa/qFioofa-Firefox.git
+	branch = main
+[submodule "repos/.vimrc"]
+	path = repos/.vimrc
+	url = https://github.com/qFioofa/.vimrc.git
+	branch = main
+[submodule "repos/yugen-ash.nvim"]
+	path = repos/yugen-ash.nvim
+	url = https://github.com/qFioofa/yugen-ash.nvim.git
+	branch = main
+[submodule "repos/physical-keyboard.nvim"]
+	path = repos/physical-keyboard.nvim
+	url = https://github.com/qFioofa/physical-keyboard.nvim.git
+	branch = develop
+[submodule "repos/yugen-ash.idea"]
+	path = repos/yugen-ash.idea
+	url = https://github.com/qFioofa/yugen-ash.idea.git
+	branch = main
+[submodule "repos/PowerShell"]
+	path = repos/PowerShell
+	url = https://github.com/qFioofa/qFioofa-PowerShell.git
+	branch = main
